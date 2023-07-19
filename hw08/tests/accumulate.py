@@ -7,14 +7,12 @@ test = {
         {
           'code': r"""
           scm> (accumulate * 1 5 identity)
-          b68dcf8d10adeb9d824d591b9fa02a67
-          # locked
+          120
           scm> (accumulate * 2 4 identity)
-          92a7ce6795f57f5b2ebd671846abb55a
-          # locked
+          48
           """,
           'hidden': False,
-          'locked': True,
+          'locked': False,
           'multiline': False
         }
       ],
