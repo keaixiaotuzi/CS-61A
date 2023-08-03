@@ -131,3 +131,4 @@ bools = [SingletonFalse, SingletonTrue]
 
 Nil = NilType()
 Undefined = UndefinedType()
+
